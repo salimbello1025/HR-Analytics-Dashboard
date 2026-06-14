@@ -1,15 +1,14 @@
 # 📊 HR Analytics Dashboard — Employee Attrition Analysis
 
 **By Salim Bello Muhammad 
-
-
 ---
 
 ## 📋 Overview
 Built a fully interactive HR Analytics Dashboard to help 
 management understand why employees leave and what can be 
-done to retain them. Analysis was conducted using both 
-Microsoft Excel and Python to ensure accuracy.
+done to retain them. This project was built using both 
+Microsoft Excel and Python (Plotly Dash) to create two 
+professional versions of the same dashboard.
 
 ---
 
@@ -26,8 +25,9 @@ Microsoft Excel and Python to ensure accuracy.
 
 ## 🔧 Tools Used
 - **Microsoft Excel** — Pivot Tables, PivotCharts, 
-  Slicers, Dashboard Design
-- **Python** — Pandas, Matplotlib, Jupyter Notebook
+  Slicers, Dashboard Design, Navigation
+- **Python** — Pandas, Matplotlib, Plotly, Dash,
+  Dash Bootstrap Components, Jupyter Notebook
 
 ---
 
@@ -76,7 +76,7 @@ Average monthly income by job role
 
 ---
 
-## 🎨 Dashboard Features
+## 🎨 Excel Dashboard Features
 - ✅ Professional dark blue theme
 - ✅ 4 KPI metric boxes prominently displayed
 - ✅ 5 interactive charts with consistent styling
@@ -87,6 +87,25 @@ Average monthly income by job role
 - ✅ How to Use guide included
 - ✅ Last Updated timestamp
 
+---
+
+## 🌐 Web Dashboard (Plotly Dash)
+Built a fully interactive web dashboard using Plotly Dash
+that runs in the browser with real-time filtering!
+
+### Web Dashboard Features
+- ✅ Dark professional theme (#0d1117 background)
+- ✅ 4 color coded KPI metric cards
+- ✅ 4 dropdown filters (Department, Gender, AgeGroup, OverTime)
+- ✅ 5 interactive charts with hover effects
+- ✅ All charts update dynamically when filters change
+- ✅ Donut chart, grouped bar charts, horizontal bar chart
+- ✅ Built with Dash Bootstrap Components
+
+### How to Run the Web Dashboard
+1. Install requirements: pip install dash plotly dash-bootstrap-components openpyxl
+2. Run the app: python HR_Dashboard_App.py
+3. Open browser and go to:  http://127.0.0.1:8050
 ---
 
 ## 🗂️ Workbook Structure
@@ -126,11 +145,13 @@ Average monthly income by job role
 |---|---|
 | HR_Analytics_Dashboard.xlsx | Complete Excel workbook with dashboard |
 | HR_Analytics_Dashboard.ipynb | Python analysis and visualizations |
+| HR_Dashboard_App.py | Plotly Dash web application |
+| HR_Dashboard_Screenshot.png | Screenshot of web dashboard |
 | README.md | Project documentation |
 
 ---
 
-## 🖥️ How to Use the Dashboard
+## 🖥️ How to Use the Excel Dashboard
 1. Open **HR_Analytics_Dashboard.xlsx**
 2. Go to **HR_Dashboard** sheet
 3. Click any value in the **Department** slicer to filter
@@ -142,5 +163,16 @@ Average monthly income by job role
 
 ---
 
+## 🖥️ How to Use the Web Dashboard
+1. Run **HR_Dashboard_App.py** in terminal
+2. Open browser → **http://127.0.0.1:8050**
+3. Use dropdown menus to filter by Department, 
+   Gender, Age Group or Overtime
+4. Hover over charts to see detailed numbers
+5. All 5 charts update instantly when filters change
+
+---
+
 *Last Updated: June 2026*
-*Prepared by: Salim Bello Muhammad | 3MTT Data Analytics*
+*Prepared by: Salim Bello Muhammad  
+    
