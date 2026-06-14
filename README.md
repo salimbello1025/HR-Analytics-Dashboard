@@ -1,7 +1,7 @@
 # 📊 HR Analytics Dashboard — Employee Attrition Analysis
 
-**By Salim Bello Muhammad | 3MTT Data Analytics**
-**Score: 100/100 🏆**
+**By Salim Bello Muhammad 
+
 
 ---
 
