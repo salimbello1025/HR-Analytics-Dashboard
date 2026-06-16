@@ -1,6 +1,6 @@
 # 📊 HR Analytics Dashboard — Employee Attrition Analysis
 
-**By Salim Bello Muhammad 
+By Salim Bello Muhammad 
 ---
 
 ## 📋 Overview
